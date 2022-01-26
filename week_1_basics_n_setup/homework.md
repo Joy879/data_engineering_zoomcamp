@@ -10,6 +10,8 @@ Install Google Cloud SDK. What's the version you have?
 To get the version, run `gcloud --version`
 
 * Answer
+
+
           Google Cloud SDK 369.0.0
           bq 2.0.72
           core 2022.01.14
@@ -244,6 +246,8 @@ How many taxi trips were there on January 15?
 Consider only trips that started on January 15.
 
 * Answer
+
+
                 53024
 ## Question 4. Largest tip for each day
 
@@ -255,6 +259,8 @@ Use the pick up time for your calculations.
 (note: it's not a typo, it's "tip", not "trip")
 
 * Answer
+
+
                 largest tip 1140.44
                 2021-01-20
 
@@ -268,6 +274,8 @@ Use the pick up time for your calculations.
 Enter the zone name (not id). If the zone name is unknown (missing), write "Unknown" 
 
 * Answer
+
+
                 Upper East Side North
                 total trips:2234
 
@@ -285,6 +293,8 @@ For example:
 If any of the zone names are unknown (missing), write "Unknown". For example, "Unknown / Clinton East". 
 
 * Answer
+
+
                 Alphabet City/Unknown
                 Average price 2292.4
 
