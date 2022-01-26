@@ -1,4 +1,4 @@
-### Question  3
+### [Question  3](https://github.com/Joy879/data_engineering_zoomcamp/blob/main/week_1_basics_n_setup/homework.md#question-3-count-records)
 
             SELECT
               COUNT(1)
@@ -7,7 +7,7 @@
             WHERE
               (tpep_pickup_datetime>='2021-01-15 00:00:00' AND
               tpep_pickup_datetime<'2021-01-16 00:00:00');
-### Question 4
+### [Question 4](https://github.com/Joy879/data_engineering_zoomcamp/blob/main/week_1_basics_n_setup/homework.md#question-4-largest-tip-for-each-day)
             SELECT
               CAST(tpep_pickup_datetime AS DATE) as "day",
               MAX(tip_amount) as "max_tip"
@@ -17,7 +17,7 @@
               1
             ORDER BY
               "max_tip" DESC;
-### Question 5
+### [Question 5](https://github.com/Joy879/data_engineering_zoomcamp/blob/main/week_1_basics_n_setup/homework.md#question-5-most-popular-destination)
             SELECT
                 CONCAT(zpu."Borough", '/', zpu."Zone") AS "pickup_loc",
                 CONCAT(zdo."Borough", '/', zdo."Zone") AS "dropoff_loc",
@@ -41,7 +41,7 @@
             ORDER BY
               "amount_of_trips" DESC
             ;
-### Question 6
+### [Question 6](https://github.com/Joy879/data_engineering_zoomcamp/blob/main/week_1_basics_n_setup/homework.md#question-6-most-expensive-locations)
             SELECT
                 CONCAT(zpu."Zone", '/', zdo."Zone") AS "zone_pair",
                 AVG(t."total_amount") AS "total_amount_average"
